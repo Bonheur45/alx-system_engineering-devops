@@ -1,0 +1,2 @@
+#!/bin/bash
+echo " "; grep "root" /etc/passwd > got-it | less /etc/passwd | tail -n 3 >> got-it | less got-it; echo " ";
